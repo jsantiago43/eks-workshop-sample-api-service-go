@@ -11,7 +11,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		//test comment
+
 		f := fib()
 
 		res := &response{Message: "Hello Lorem Ipsum"}
